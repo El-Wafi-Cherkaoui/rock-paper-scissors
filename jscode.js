@@ -1,6 +1,5 @@
 function getComputerChoice(){
     let randomn = Math.floor( Math.random() * 100 );
-    console.log(randomn)
     if (0 <= randomn && randomn<33) {
         return "rock"
     }
